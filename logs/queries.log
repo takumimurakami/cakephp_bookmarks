@@ -1,0 +1,562 @@
+2021-02-02 04:57:43 Debug: duration=7 rows=4 SHOW TABLES FROM `cake_bookmarks`
+2021-02-02 04:57:43 Debug: duration=1 rows=5 SHOW FULL COLUMNS FROM `users`
+2021-02-02 04:57:43 Debug: duration=0 rows=1 SHOW INDEXES FROM `users`
+2021-02-02 04:57:43 Debug: duration=6 rows=0 SELECT * FROM information_schema.key_column_usage AS kcu
+            INNER JOIN information_schema.referential_constraints AS rc
+            ON (
+                kcu.CONSTRAINT_NAME = rc.CONSTRAINT_NAME
+                AND kcu.CONSTRAINT_SCHEMA = rc.CONSTRAINT_SCHEMA
+            )
+            WHERE kcu.TABLE_SCHEMA = 'cake_bookmarks' AND kcu.TABLE_NAME = 'users' AND rc.TABLE_NAME = 'users'
+2021-02-02 04:57:43 Debug: duration=1 rows=1 SHOW TABLE STATUS WHERE Name = 'users'
+2021-02-02 04:57:43 Debug: duration=0 rows=7 SHOW FULL COLUMNS FROM `bookmarks`
+2021-02-02 04:57:43 Debug: duration=0 rows=2 SHOW INDEXES FROM `bookmarks`
+2021-02-02 04:57:43 Debug: duration=10 rows=1 SELECT * FROM information_schema.key_column_usage AS kcu
+            INNER JOIN information_schema.referential_constraints AS rc
+            ON (
+                kcu.CONSTRAINT_NAME = rc.CONSTRAINT_NAME
+                AND kcu.CONSTRAINT_SCHEMA = rc.CONSTRAINT_SCHEMA
+            )
+            WHERE kcu.TABLE_SCHEMA = 'cake_bookmarks' AND kcu.TABLE_NAME = 'bookmarks' AND rc.TABLE_NAME = 'bookmarks'
+2021-02-02 04:57:43 Debug: duration=1 rows=1 SHOW TABLE STATUS WHERE Name = 'bookmarks'
+2021-02-02 04:57:43 Debug: duration=0 rows=2 SHOW FULL COLUMNS FROM `bookmarks_tags`
+2021-02-02 04:57:43 Debug: duration=0 rows=3 SHOW INDEXES FROM `bookmarks_tags`
+2021-02-02 04:57:43 Debug: duration=1 rows=2 SELECT * FROM information_schema.key_column_usage AS kcu
+            INNER JOIN information_schema.referential_constraints AS rc
+            ON (
+                kcu.CONSTRAINT_NAME = rc.CONSTRAINT_NAME
+                AND kcu.CONSTRAINT_SCHEMA = rc.CONSTRAINT_SCHEMA
+            )
+            WHERE kcu.TABLE_SCHEMA = 'cake_bookmarks' AND kcu.TABLE_NAME = 'bookmarks_tags' AND rc.TABLE_NAME = 'bookmarks_tags'
+2021-02-02 04:57:43 Debug: duration=0 rows=1 SHOW TABLE STATUS WHERE Name = 'bookmarks_tags'
+2021-02-02 04:57:43 Debug: duration=0 rows=4 SHOW FULL COLUMNS FROM `tags`
+2021-02-02 04:57:43 Debug: duration=0 rows=2 SHOW INDEXES FROM `tags`
+2021-02-02 04:57:43 Debug: duration=1 rows=0 SELECT * FROM information_schema.key_column_usage AS kcu
+            INNER JOIN information_schema.referential_constraints AS rc
+            ON (
+                kcu.CONSTRAINT_NAME = rc.CONSTRAINT_NAME
+                AND kcu.CONSTRAINT_SCHEMA = rc.CONSTRAINT_SCHEMA
+            )
+            WHERE kcu.TABLE_SCHEMA = 'cake_bookmarks' AND kcu.TABLE_NAME = 'tags' AND rc.TABLE_NAME = 'tags'
+2021-02-02 04:57:43 Debug: duration=0 rows=1 SHOW TABLE STATUS WHERE Name = 'tags'
+2021-02-02 04:57:43 Debug: duration=0 rows=5 SHOW FULL COLUMNS FROM `users`
+2021-02-02 04:57:43 Debug: duration=0 rows=1 SHOW INDEXES FROM `users`
+2021-02-02 04:57:43 Debug: duration=0 rows=0 SELECT * FROM information_schema.key_column_usage AS kcu
+            INNER JOIN information_schema.referential_constraints AS rc
+            ON (
+                kcu.CONSTRAINT_NAME = rc.CONSTRAINT_NAME
+                AND kcu.CONSTRAINT_SCHEMA = rc.CONSTRAINT_SCHEMA
+            )
+            WHERE kcu.TABLE_SCHEMA = 'cake_bookmarks' AND kcu.TABLE_NAME = 'users' AND rc.TABLE_NAME = 'users'
+2021-02-02 04:57:43 Debug: duration=0 rows=1 SHOW TABLE STATUS WHERE Name = 'users'
+2021-02-02 04:57:43 Debug: duration=4 rows=7 SHOW FULL COLUMNS FROM `bookmarks`
+2021-02-02 04:57:43 Debug: duration=0 rows=2 SHOW INDEXES FROM `bookmarks`
+2021-02-02 04:57:43 Debug: duration=3 rows=1 SELECT * FROM information_schema.key_column_usage AS kcu
+            INNER JOIN information_schema.referential_constraints AS rc
+            ON (
+                kcu.CONSTRAINT_NAME = rc.CONSTRAINT_NAME
+                AND kcu.CONSTRAINT_SCHEMA = rc.CONSTRAINT_SCHEMA
+            )
+            WHERE kcu.TABLE_SCHEMA = 'cake_bookmarks' AND kcu.TABLE_NAME = 'bookmarks' AND rc.TABLE_NAME = 'bookmarks'
+2021-02-02 04:57:43 Debug: duration=2 rows=1 SHOW TABLE STATUS WHERE Name = 'bookmarks'
+2021-02-02 04:57:54 Debug: duration=0 rows=4 SHOW TABLES FROM `cake_bookmarks`
+2021-02-02 04:57:54 Debug: duration=1 rows=7 SHOW FULL COLUMNS FROM `bookmarks`
+2021-02-02 04:57:54 Debug: duration=0 rows=2 SHOW INDEXES FROM `bookmarks`
+2021-02-02 04:57:54 Debug: duration=1 rows=1 SELECT * FROM information_schema.key_column_usage AS kcu
+            INNER JOIN information_schema.referential_constraints AS rc
+            ON (
+                kcu.CONSTRAINT_NAME = rc.CONSTRAINT_NAME
+                AND kcu.CONSTRAINT_SCHEMA = rc.CONSTRAINT_SCHEMA
+            )
+            WHERE kcu.TABLE_SCHEMA = 'cake_bookmarks' AND kcu.TABLE_NAME = 'bookmarks' AND rc.TABLE_NAME = 'bookmarks'
+2021-02-02 04:57:54 Debug: duration=0 rows=1 SHOW TABLE STATUS WHERE Name = 'bookmarks'
+2021-02-02 04:57:54 Debug: duration=0 rows=2 SHOW FULL COLUMNS FROM `bookmarks_tags`
+2021-02-02 04:57:54 Debug: duration=0 rows=3 SHOW INDEXES FROM `bookmarks_tags`
+2021-02-02 04:57:54 Debug: duration=0 rows=2 SELECT * FROM information_schema.key_column_usage AS kcu
+            INNER JOIN information_schema.referential_constraints AS rc
+            ON (
+                kcu.CONSTRAINT_NAME = rc.CONSTRAINT_NAME
+                AND kcu.CONSTRAINT_SCHEMA = rc.CONSTRAINT_SCHEMA
+            )
+            WHERE kcu.TABLE_SCHEMA = 'cake_bookmarks' AND kcu.TABLE_NAME = 'bookmarks_tags' AND rc.TABLE_NAME = 'bookmarks_tags'
+2021-02-02 04:57:54 Debug: duration=0 rows=1 SHOW TABLE STATUS WHERE Name = 'bookmarks_tags'
+2021-02-02 04:57:54 Debug: duration=0 rows=4 SHOW FULL COLUMNS FROM `tags`
+2021-02-02 04:57:54 Debug: duration=0 rows=2 SHOW INDEXES FROM `tags`
+2021-02-02 04:57:54 Debug: duration=0 rows=0 SELECT * FROM information_schema.key_column_usage AS kcu
+            INNER JOIN information_schema.referential_constraints AS rc
+            ON (
+                kcu.CONSTRAINT_NAME = rc.CONSTRAINT_NAME
+                AND kcu.CONSTRAINT_SCHEMA = rc.CONSTRAINT_SCHEMA
+            )
+            WHERE kcu.TABLE_SCHEMA = 'cake_bookmarks' AND kcu.TABLE_NAME = 'tags' AND rc.TABLE_NAME = 'tags'
+2021-02-02 04:57:54 Debug: duration=0 rows=1 SHOW TABLE STATUS WHERE Name = 'tags'
+2021-02-02 04:57:54 Debug: duration=1 rows=5 SHOW FULL COLUMNS FROM `users`
+2021-02-02 04:57:54 Debug: duration=0 rows=1 SHOW INDEXES FROM `users`
+2021-02-02 04:57:54 Debug: duration=1 rows=0 SELECT * FROM information_schema.key_column_usage AS kcu
+            INNER JOIN information_schema.referential_constraints AS rc
+            ON (
+                kcu.CONSTRAINT_NAME = rc.CONSTRAINT_NAME
+                AND kcu.CONSTRAINT_SCHEMA = rc.CONSTRAINT_SCHEMA
+            )
+            WHERE kcu.TABLE_SCHEMA = 'cake_bookmarks' AND kcu.TABLE_NAME = 'users' AND rc.TABLE_NAME = 'users'
+2021-02-02 04:57:54 Debug: duration=0 rows=1 SHOW TABLE STATUS WHERE Name = 'users'
+2021-02-02 04:57:54 Debug: duration=1 rows=7 SHOW FULL COLUMNS FROM `bookmarks`
+2021-02-02 04:57:54 Debug: duration=0 rows=2 SHOW INDEXES FROM `bookmarks`
+2021-02-02 04:57:54 Debug: duration=3 rows=1 SELECT * FROM information_schema.key_column_usage AS kcu
+            INNER JOIN information_schema.referential_constraints AS rc
+            ON (
+                kcu.CONSTRAINT_NAME = rc.CONSTRAINT_NAME
+                AND kcu.CONSTRAINT_SCHEMA = rc.CONSTRAINT_SCHEMA
+            )
+            WHERE kcu.TABLE_SCHEMA = 'cake_bookmarks' AND kcu.TABLE_NAME = 'bookmarks' AND rc.TABLE_NAME = 'bookmarks'
+2021-02-02 04:57:54 Debug: duration=1 rows=1 SHOW TABLE STATUS WHERE Name = 'bookmarks'
+2021-02-02 04:57:54 Debug: duration=0 rows=5 SHOW FULL COLUMNS FROM `users`
+2021-02-02 04:57:54 Debug: duration=0 rows=1 SHOW INDEXES FROM `users`
+2021-02-02 04:57:54 Debug: duration=0 rows=0 SELECT * FROM information_schema.key_column_usage AS kcu
+            INNER JOIN information_schema.referential_constraints AS rc
+            ON (
+                kcu.CONSTRAINT_NAME = rc.CONSTRAINT_NAME
+                AND kcu.CONSTRAINT_SCHEMA = rc.CONSTRAINT_SCHEMA
+            )
+            WHERE kcu.TABLE_SCHEMA = 'cake_bookmarks' AND kcu.TABLE_NAME = 'users' AND rc.TABLE_NAME = 'users'
+2021-02-02 04:57:54 Debug: duration=0 rows=1 SHOW TABLE STATUS WHERE Name = 'users'
+2021-02-02 04:57:54 Debug: duration=0 rows=4 SHOW FULL COLUMNS FROM `tags`
+2021-02-02 04:57:54 Debug: duration=0 rows=2 SHOW INDEXES FROM `tags`
+2021-02-02 04:57:54 Debug: duration=0 rows=0 SELECT * FROM information_schema.key_column_usage AS kcu
+            INNER JOIN information_schema.referential_constraints AS rc
+            ON (
+                kcu.CONSTRAINT_NAME = rc.CONSTRAINT_NAME
+                AND kcu.CONSTRAINT_SCHEMA = rc.CONSTRAINT_SCHEMA
+            )
+            WHERE kcu.TABLE_SCHEMA = 'cake_bookmarks' AND kcu.TABLE_NAME = 'tags' AND rc.TABLE_NAME = 'tags'
+2021-02-02 04:57:54 Debug: duration=0 rows=1 SHOW TABLE STATUS WHERE Name = 'tags'
+2021-02-02 04:58:06 Debug: duration=0 rows=4 SHOW TABLES FROM `cake_bookmarks`
+2021-02-02 04:58:06 Debug: duration=0 rows=4 SHOW FULL COLUMNS FROM `tags`
+2021-02-02 04:58:06 Debug: duration=0 rows=2 SHOW INDEXES FROM `tags`
+2021-02-02 04:58:06 Debug: duration=1 rows=0 SELECT * FROM information_schema.key_column_usage AS kcu
+            INNER JOIN information_schema.referential_constraints AS rc
+            ON (
+                kcu.CONSTRAINT_NAME = rc.CONSTRAINT_NAME
+                AND kcu.CONSTRAINT_SCHEMA = rc.CONSTRAINT_SCHEMA
+            )
+            WHERE kcu.TABLE_SCHEMA = 'cake_bookmarks' AND kcu.TABLE_NAME = 'tags' AND rc.TABLE_NAME = 'tags'
+2021-02-02 04:58:06 Debug: duration=0 rows=1 SHOW TABLE STATUS WHERE Name = 'tags'
+2021-02-02 04:58:06 Debug: duration=0 rows=7 SHOW FULL COLUMNS FROM `bookmarks`
+2021-02-02 04:58:06 Debug: duration=0 rows=2 SHOW INDEXES FROM `bookmarks`
+2021-02-02 04:58:06 Debug: duration=1 rows=1 SELECT * FROM information_schema.key_column_usage AS kcu
+            INNER JOIN information_schema.referential_constraints AS rc
+            ON (
+                kcu.CONSTRAINT_NAME = rc.CONSTRAINT_NAME
+                AND kcu.CONSTRAINT_SCHEMA = rc.CONSTRAINT_SCHEMA
+            )
+            WHERE kcu.TABLE_SCHEMA = 'cake_bookmarks' AND kcu.TABLE_NAME = 'bookmarks' AND rc.TABLE_NAME = 'bookmarks'
+2021-02-02 04:58:06 Debug: duration=0 rows=1 SHOW TABLE STATUS WHERE Name = 'bookmarks'
+2021-02-02 04:58:06 Debug: duration=0 rows=2 SHOW FULL COLUMNS FROM `bookmarks_tags`
+2021-02-02 04:58:06 Debug: duration=0 rows=3 SHOW INDEXES FROM `bookmarks_tags`
+2021-02-02 04:58:06 Debug: duration=0 rows=2 SELECT * FROM information_schema.key_column_usage AS kcu
+            INNER JOIN information_schema.referential_constraints AS rc
+            ON (
+                kcu.CONSTRAINT_NAME = rc.CONSTRAINT_NAME
+                AND kcu.CONSTRAINT_SCHEMA = rc.CONSTRAINT_SCHEMA
+            )
+            WHERE kcu.TABLE_SCHEMA = 'cake_bookmarks' AND kcu.TABLE_NAME = 'bookmarks_tags' AND rc.TABLE_NAME = 'bookmarks_tags'
+2021-02-02 04:58:06 Debug: duration=0 rows=1 SHOW TABLE STATUS WHERE Name = 'bookmarks_tags'
+2021-02-02 04:58:06 Debug: duration=1 rows=5 SHOW FULL COLUMNS FROM `users`
+2021-02-02 04:58:06 Debug: duration=0 rows=1 SHOW INDEXES FROM `users`
+2021-02-02 04:58:06 Debug: duration=1 rows=0 SELECT * FROM information_schema.key_column_usage AS kcu
+            INNER JOIN information_schema.referential_constraints AS rc
+            ON (
+                kcu.CONSTRAINT_NAME = rc.CONSTRAINT_NAME
+                AND kcu.CONSTRAINT_SCHEMA = rc.CONSTRAINT_SCHEMA
+            )
+            WHERE kcu.TABLE_SCHEMA = 'cake_bookmarks' AND kcu.TABLE_NAME = 'users' AND rc.TABLE_NAME = 'users'
+2021-02-02 04:58:06 Debug: duration=0 rows=1 SHOW TABLE STATUS WHERE Name = 'users'
+2021-02-02 04:58:06 Debug: duration=0 rows=4 SHOW FULL COLUMNS FROM `tags`
+2021-02-02 04:58:06 Debug: duration=0 rows=2 SHOW INDEXES FROM `tags`
+2021-02-02 04:58:06 Debug: duration=0 rows=0 SELECT * FROM information_schema.key_column_usage AS kcu
+            INNER JOIN information_schema.referential_constraints AS rc
+            ON (
+                kcu.CONSTRAINT_NAME = rc.CONSTRAINT_NAME
+                AND kcu.CONSTRAINT_SCHEMA = rc.CONSTRAINT_SCHEMA
+            )
+            WHERE kcu.TABLE_SCHEMA = 'cake_bookmarks' AND kcu.TABLE_NAME = 'tags' AND rc.TABLE_NAME = 'tags'
+2021-02-02 04:58:06 Debug: duration=0 rows=1 SHOW TABLE STATUS WHERE Name = 'tags'
+2021-02-02 04:58:07 Debug: duration=0 rows=7 SHOW FULL COLUMNS FROM `bookmarks`
+2021-02-02 04:58:07 Debug: duration=0 rows=2 SHOW INDEXES FROM `bookmarks`
+2021-02-02 04:58:07 Debug: duration=0 rows=1 SELECT * FROM information_schema.key_column_usage AS kcu
+            INNER JOIN information_schema.referential_constraints AS rc
+            ON (
+                kcu.CONSTRAINT_NAME = rc.CONSTRAINT_NAME
+                AND kcu.CONSTRAINT_SCHEMA = rc.CONSTRAINT_SCHEMA
+            )
+            WHERE kcu.TABLE_SCHEMA = 'cake_bookmarks' AND kcu.TABLE_NAME = 'bookmarks' AND rc.TABLE_NAME = 'bookmarks'
+2021-02-02 04:58:07 Debug: duration=0 rows=1 SHOW TABLE STATUS WHERE Name = 'bookmarks'
+2021-02-02 04:58:38 Debug: duration=1 rows=7 SHOW FULL COLUMNS FROM `bookmarks`
+2021-02-02 04:58:38 Debug: duration=0 rows=2 SHOW INDEXES FROM `bookmarks`
+2021-02-02 04:58:38 Debug: duration=1 rows=1 SELECT * FROM information_schema.key_column_usage AS kcu
+            INNER JOIN information_schema.referential_constraints AS rc
+            ON (
+                kcu.CONSTRAINT_NAME = rc.CONSTRAINT_NAME
+                AND kcu.CONSTRAINT_SCHEMA = rc.CONSTRAINT_SCHEMA
+            )
+            WHERE kcu.TABLE_SCHEMA = 'cake_bookmarks' AND kcu.TABLE_NAME = 'bookmarks' AND rc.TABLE_NAME = 'bookmarks'
+2021-02-02 04:58:38 Debug: duration=0 rows=1 SHOW TABLE STATUS WHERE Name = 'bookmarks'
+2021-02-02 04:58:39 Debug: duration=0 rows=5 SHOW FULL COLUMNS FROM `users`
+2021-02-02 04:58:39 Debug: duration=0 rows=1 SHOW INDEXES FROM `users`
+2021-02-02 04:58:39 Debug: duration=0 rows=0 SELECT * FROM information_schema.key_column_usage AS kcu
+            INNER JOIN information_schema.referential_constraints AS rc
+            ON (
+                kcu.CONSTRAINT_NAME = rc.CONSTRAINT_NAME
+                AND kcu.CONSTRAINT_SCHEMA = rc.CONSTRAINT_SCHEMA
+            )
+            WHERE kcu.TABLE_SCHEMA = 'cake_bookmarks' AND kcu.TABLE_NAME = 'users' AND rc.TABLE_NAME = 'users'
+2021-02-02 04:58:39 Debug: duration=0 rows=1 SHOW TABLE STATUS WHERE Name = 'users'
+2021-02-02 04:58:39 Debug: duration=0 rows=0 SELECT Bookmarks.id AS `Bookmarks__id`, Bookmarks.user_id AS `Bookmarks__user_id`, Bookmarks.title AS `Bookmarks__title`, Bookmarks.description AS `Bookmarks__description`, Bookmarks.url AS `Bookmarks__url`, Bookmarks.created AS `Bookmarks__created`, Bookmarks.modified AS `Bookmarks__modified`, Users.id AS `Users__id`, Users.email AS `Users__email`, Users.password AS `Users__password`, Users.created AS `Users__created`, Users.modified AS `Users__modified` FROM bookmarks Bookmarks INNER JOIN users Users ON Users.id = (Bookmarks.user_id) LIMIT 20 OFFSET 0
+2021-02-02 04:58:39 Debug: duration=0 rows=1 SELECT (COUNT(*)) AS `count` FROM bookmarks Bookmarks INNER JOIN users Users ON Users.id = (Bookmarks.user_id)
+2021-02-02 04:59:02 Debug: duration=0 rows=4 SHOW FULL COLUMNS FROM `tags`
+2021-02-02 04:59:02 Debug: duration=0 rows=2 SHOW INDEXES FROM `tags`
+2021-02-02 04:59:02 Debug: duration=6 rows=0 SELECT * FROM information_schema.key_column_usage AS kcu
+            INNER JOIN information_schema.referential_constraints AS rc
+            ON (
+                kcu.CONSTRAINT_NAME = rc.CONSTRAINT_NAME
+                AND kcu.CONSTRAINT_SCHEMA = rc.CONSTRAINT_SCHEMA
+            )
+            WHERE kcu.TABLE_SCHEMA = 'cake_bookmarks' AND kcu.TABLE_NAME = 'tags' AND rc.TABLE_NAME = 'tags'
+2021-02-02 04:59:02 Debug: duration=6 rows=1 SHOW TABLE STATUS WHERE Name = 'tags'
+2021-02-02 04:59:02 Debug: duration=0 rows=0 SELECT Users.id AS `Users__id` FROM users Users LIMIT 200
+2021-02-02 04:59:02 Debug: duration=0 rows=0 SELECT Tags.id AS `Tags__id`, Tags.title AS `Tags__title` FROM tags Tags LIMIT 200
+2021-02-02 04:59:59 Debug: duration=0 rows=0 BEGIN
+2021-02-02 04:59:59 Debug: duration=1 rows=0 INSERT INTO bookmarks (title, description, url, created, modified) VALUES ('bookmark1', '説明説明説明説明説明説明説明説明説明説明説明説明', 'http://localhost:8765', '2021-02-02 04:59:59', '2021-02-02 04:59:59')
+2021-02-02 04:59:59 Debug: duration=0 rows=0 ROLLBACK
+2021-02-02 05:00:10 Debug: duration=1 rows=0 SELECT Bookmarks.id AS `Bookmarks__id`, Bookmarks.user_id AS `Bookmarks__user_id`, Bookmarks.title AS `Bookmarks__title`, Bookmarks.description AS `Bookmarks__description`, Bookmarks.url AS `Bookmarks__url`, Bookmarks.created AS `Bookmarks__created`, Bookmarks.modified AS `Bookmarks__modified`, Users.id AS `Users__id`, Users.email AS `Users__email`, Users.password AS `Users__password`, Users.created AS `Users__created`, Users.modified AS `Users__modified` FROM bookmarks Bookmarks INNER JOIN users Users ON Users.id = (Bookmarks.user_id) LIMIT 20 OFFSET 0
+2021-02-02 05:00:10 Debug: duration=0 rows=1 SELECT (COUNT(*)) AS `count` FROM bookmarks Bookmarks INNER JOIN users Users ON Users.id = (Bookmarks.user_id)
+2021-02-02 05:01:34 Debug: duration=0 rows=5 SHOW FULL COLUMNS FROM `users`
+2021-02-02 05:01:34 Debug: duration=0 rows=1 SHOW INDEXES FROM `users`
+2021-02-02 05:01:34 Debug: duration=8 rows=0 SELECT * FROM information_schema.key_column_usage AS kcu
+            INNER JOIN information_schema.referential_constraints AS rc
+            ON (
+                kcu.CONSTRAINT_NAME = rc.CONSTRAINT_NAME
+                AND kcu.CONSTRAINT_SCHEMA = rc.CONSTRAINT_SCHEMA
+            )
+            WHERE kcu.TABLE_SCHEMA = 'cake_bookmarks' AND kcu.TABLE_NAME = 'users' AND rc.TABLE_NAME = 'users'
+2021-02-02 05:01:34 Debug: duration=6 rows=1 SHOW TABLE STATUS WHERE Name = 'users'
+2021-02-02 05:01:37 Debug: duration=0 rows=0 BEGIN
+2021-02-02 05:01:37 Debug: duration=0 rows=0 SELECT 1 AS `existing` FROM users Users WHERE Users.email = 'takumi28280503@gmail.com' LIMIT 1
+2021-02-02 05:01:37 Debug: duration=0 rows=1 INSERT INTO users (email, password, created, modified) VALUES ('takumi28280503@gmail.com', 'takumi2828', '2021-02-02 05:01:37', '2021-02-02 05:01:37')
+2021-02-02 05:01:37 Debug: duration=0 rows=0 COMMIT
+2021-02-02 05:01:37 Debug: duration=0 rows=1 SELECT Users.id AS `Users__id`, Users.email AS `Users__email`, Users.password AS `Users__password`, Users.created AS `Users__created`, Users.modified AS `Users__modified` FROM users Users LIMIT 20 OFFSET 0
+2021-02-02 05:01:37 Debug: duration=0 rows=1 SELECT (COUNT(*)) AS `count` FROM users Users
+2021-02-02 05:01:42 Debug: duration=0 rows=7 SHOW FULL COLUMNS FROM `bookmarks`
+2021-02-02 05:01:42 Debug: duration=1 rows=2 SHOW INDEXES FROM `bookmarks`
+2021-02-02 05:01:42 Debug: duration=2 rows=1 SELECT * FROM information_schema.key_column_usage AS kcu
+            INNER JOIN information_schema.referential_constraints AS rc
+            ON (
+                kcu.CONSTRAINT_NAME = rc.CONSTRAINT_NAME
+                AND kcu.CONSTRAINT_SCHEMA = rc.CONSTRAINT_SCHEMA
+            )
+            WHERE kcu.TABLE_SCHEMA = 'cake_bookmarks' AND kcu.TABLE_NAME = 'bookmarks' AND rc.TABLE_NAME = 'bookmarks'
+2021-02-02 05:01:42 Debug: duration=1 rows=1 SHOW TABLE STATUS WHERE Name = 'bookmarks'
+2021-02-02 05:01:42 Debug: duration=0 rows=0 SELECT Bookmarks.id AS `Bookmarks__id`, Bookmarks.user_id AS `Bookmarks__user_id`, Bookmarks.title AS `Bookmarks__title`, Bookmarks.description AS `Bookmarks__description`, Bookmarks.url AS `Bookmarks__url`, Bookmarks.created AS `Bookmarks__created`, Bookmarks.modified AS `Bookmarks__modified`, Users.id AS `Users__id`, Users.email AS `Users__email`, Users.password AS `Users__password`, Users.created AS `Users__created`, Users.modified AS `Users__modified` FROM bookmarks Bookmarks INNER JOIN users Users ON Users.id = (Bookmarks.user_id) LIMIT 20 OFFSET 0
+2021-02-02 05:01:42 Debug: duration=0 rows=1 SELECT (COUNT(*)) AS `count` FROM bookmarks Bookmarks INNER JOIN users Users ON Users.id = (Bookmarks.user_id)
+2021-02-02 05:01:48 Debug: duration=2 rows=4 SHOW FULL COLUMNS FROM `tags`
+2021-02-02 05:01:48 Debug: duration=0 rows=2 SHOW INDEXES FROM `tags`
+2021-02-02 05:01:48 Debug: duration=1 rows=0 SELECT * FROM information_schema.key_column_usage AS kcu
+            INNER JOIN information_schema.referential_constraints AS rc
+            ON (
+                kcu.CONSTRAINT_NAME = rc.CONSTRAINT_NAME
+                AND kcu.CONSTRAINT_SCHEMA = rc.CONSTRAINT_SCHEMA
+            )
+            WHERE kcu.TABLE_SCHEMA = 'cake_bookmarks' AND kcu.TABLE_NAME = 'tags' AND rc.TABLE_NAME = 'tags'
+2021-02-02 05:01:48 Debug: duration=1 rows=1 SHOW TABLE STATUS WHERE Name = 'tags'
+2021-02-02 05:01:48 Debug: duration=0 rows=0 SELECT Bookmarks.id AS `Bookmarks__id`, Bookmarks.title AS `Bookmarks__title` FROM bookmarks Bookmarks LIMIT 200
+2021-02-02 05:01:57 Debug: duration=1 rows=0 SELECT 1 AS `existing` FROM tags Tags WHERE Tags.title = 'tag1' LIMIT 1
+2021-02-02 05:01:57 Debug: duration=0 rows=0 BEGIN
+2021-02-02 05:01:57 Debug: duration=0 rows=0 SELECT 1 AS `existing` FROM tags Tags WHERE Tags.title = 'tag1' LIMIT 1
+2021-02-02 05:01:57 Debug: duration=0 rows=1 INSERT INTO tags (title, created, modified) VALUES ('tag1', '2021-02-02 05:01:57', '2021-02-02 05:01:57')
+2021-02-02 05:01:57 Debug: duration=0 rows=0 COMMIT
+2021-02-02 05:01:57 Debug: duration=0 rows=1 SELECT Tags.id AS `Tags__id`, Tags.title AS `Tags__title`, Tags.created AS `Tags__created`, Tags.modified AS `Tags__modified` FROM tags Tags LIMIT 20 OFFSET 0
+2021-02-02 05:01:57 Debug: duration=0 rows=1 SELECT (COUNT(*)) AS `count` FROM tags Tags
+2021-02-02 05:02:01 Debug: duration=0 rows=0 SELECT Bookmarks.id AS `Bookmarks__id`, Bookmarks.user_id AS `Bookmarks__user_id`, Bookmarks.title AS `Bookmarks__title`, Bookmarks.description AS `Bookmarks__description`, Bookmarks.url AS `Bookmarks__url`, Bookmarks.created AS `Bookmarks__created`, Bookmarks.modified AS `Bookmarks__modified`, Users.id AS `Users__id`, Users.email AS `Users__email`, Users.password AS `Users__password`, Users.created AS `Users__created`, Users.modified AS `Users__modified` FROM bookmarks Bookmarks INNER JOIN users Users ON Users.id = (Bookmarks.user_id) LIMIT 20 OFFSET 0
+2021-02-02 05:02:01 Debug: duration=0 rows=1 SELECT (COUNT(*)) AS `count` FROM bookmarks Bookmarks INNER JOIN users Users ON Users.id = (Bookmarks.user_id)
+2021-02-02 05:02:03 Debug: duration=0 rows=1 SELECT Users.id AS `Users__id` FROM users Users LIMIT 200
+2021-02-02 05:02:03 Debug: duration=0 rows=1 SELECT Tags.id AS `Tags__id`, Tags.title AS `Tags__title` FROM tags Tags LIMIT 200
+2021-02-02 05:02:31 Debug: duration=0 rows=0 BEGIN
+2021-02-02 05:02:31 Debug: duration=0 rows=1 SELECT 1 AS `existing` FROM users Users WHERE Users.id = 1 LIMIT 1
+2021-02-02 05:02:31 Debug: duration=0 rows=1 INSERT INTO bookmarks (user_id, title, description, url, created, modified) VALUES (1, 'タイトル', '説明', 'http://localhost:8765/', '2021-02-02 05:02:31', '2021-02-02 05:02:31')
+2021-02-02 05:02:31 Debug: duration=0 rows=0 COMMIT
+2021-02-02 05:02:31 Debug: duration=0 rows=1 SELECT Bookmarks.id AS `Bookmarks__id`, Bookmarks.user_id AS `Bookmarks__user_id`, Bookmarks.title AS `Bookmarks__title`, Bookmarks.description AS `Bookmarks__description`, Bookmarks.url AS `Bookmarks__url`, Bookmarks.created AS `Bookmarks__created`, Bookmarks.modified AS `Bookmarks__modified`, Users.id AS `Users__id`, Users.email AS `Users__email`, Users.password AS `Users__password`, Users.created AS `Users__created`, Users.modified AS `Users__modified` FROM bookmarks Bookmarks INNER JOIN users Users ON Users.id = (Bookmarks.user_id) LIMIT 20 OFFSET 0
+2021-02-02 05:02:31 Debug: duration=0 rows=1 SELECT (COUNT(*)) AS `count` FROM bookmarks Bookmarks INNER JOIN users Users ON Users.id = (Bookmarks.user_id)
+2021-02-02 07:28:29 Debug: duration=2 rows=7 SHOW FULL COLUMNS FROM `bookmarks`
+2021-02-02 07:28:29 Debug: duration=0 rows=2 SHOW INDEXES FROM `bookmarks`
+2021-02-02 07:28:29 Debug: duration=7 rows=1 SELECT * FROM information_schema.key_column_usage AS kcu
+            INNER JOIN information_schema.referential_constraints AS rc
+            ON (
+                kcu.CONSTRAINT_NAME = rc.CONSTRAINT_NAME
+                AND kcu.CONSTRAINT_SCHEMA = rc.CONSTRAINT_SCHEMA
+            )
+            WHERE kcu.TABLE_SCHEMA = 'cake_bookmarks' AND kcu.TABLE_NAME = 'bookmarks' AND rc.TABLE_NAME = 'bookmarks'
+2021-02-02 07:28:29 Debug: duration=7 rows=1 SHOW TABLE STATUS WHERE Name = 'bookmarks'
+2021-02-02 07:28:29 Debug: duration=0 rows=4 SHOW FULL COLUMNS FROM `tags`
+2021-02-02 07:28:29 Debug: duration=0 rows=2 SHOW INDEXES FROM `tags`
+2021-02-02 07:28:29 Debug: duration=1 rows=0 SELECT * FROM information_schema.key_column_usage AS kcu
+            INNER JOIN information_schema.referential_constraints AS rc
+            ON (
+                kcu.CONSTRAINT_NAME = rc.CONSTRAINT_NAME
+                AND kcu.CONSTRAINT_SCHEMA = rc.CONSTRAINT_SCHEMA
+            )
+            WHERE kcu.TABLE_SCHEMA = 'cake_bookmarks' AND kcu.TABLE_NAME = 'tags' AND rc.TABLE_NAME = 'tags'
+2021-02-02 07:28:29 Debug: duration=0 rows=1 SHOW TABLE STATUS WHERE Name = 'tags'
+2021-02-02 07:39:51 Debug: duration=1 rows=5 SHOW FULL COLUMNS FROM `users`
+2021-02-02 07:39:51 Debug: duration=0 rows=1 SHOW INDEXES FROM `users`
+2021-02-02 07:39:51 Debug: duration=1 rows=0 SELECT * FROM information_schema.key_column_usage AS kcu
+            INNER JOIN information_schema.referential_constraints AS rc
+            ON (
+                kcu.CONSTRAINT_NAME = rc.CONSTRAINT_NAME
+                AND kcu.CONSTRAINT_SCHEMA = rc.CONSTRAINT_SCHEMA
+            )
+            WHERE kcu.TABLE_SCHEMA = 'cake_bookmarks' AND kcu.TABLE_NAME = 'users' AND rc.TABLE_NAME = 'users'
+2021-02-02 07:39:51 Debug: duration=0 rows=1 SHOW TABLE STATUS WHERE Name = 'users'
+2021-02-02 07:39:53 Debug: duration=0 rows=0 BEGIN
+2021-02-02 07:39:53 Debug: duration=0 rows=1 SELECT 1 AS `existing` FROM users Users WHERE Users.email = 'takumi28280503@gmail.com' LIMIT 1
+2021-02-02 07:39:53 Debug: duration=0 rows=0 ROLLBACK
+2021-02-02 07:40:12 Debug: duration=0 rows=0 BEGIN
+2021-02-02 07:40:12 Debug: duration=0 rows=0 SELECT 1 AS `existing` FROM users Users WHERE Users.email = 'soushin@gmail.com' LIMIT 1
+2021-02-02 07:40:12 Debug: duration=0 rows=1 INSERT INTO users (email, password, created, modified) VALUES ('soushin@gmail.com', '$2y$10$ZW4gUE2rwkDBiTNal2ir5.t7JbK8kzQfqUky2yfRZadd8yUcbOggS', '2021-02-02 07:40:12', '2021-02-02 07:40:12')
+2021-02-02 07:40:12 Debug: duration=0 rows=0 COMMIT
+2021-02-02 07:40:12 Debug: duration=0 rows=2 SELECT Users.id AS `Users__id`, Users.email AS `Users__email`, Users.password AS `Users__password`, Users.created AS `Users__created`, Users.modified AS `Users__modified` FROM users Users LIMIT 20 OFFSET 0
+2021-02-02 07:40:12 Debug: duration=0 rows=1 SELECT (COUNT(*)) AS `count` FROM users Users
+2021-02-02 07:42:36 Debug: duration=1 rows=5 SHOW FULL COLUMNS FROM `users`
+2021-02-02 07:42:36 Debug: duration=0 rows=1 SHOW INDEXES FROM `users`
+2021-02-02 07:42:36 Debug: duration=6 rows=0 SELECT * FROM information_schema.key_column_usage AS kcu
+            INNER JOIN information_schema.referential_constraints AS rc
+            ON (
+                kcu.CONSTRAINT_NAME = rc.CONSTRAINT_NAME
+                AND kcu.CONSTRAINT_SCHEMA = rc.CONSTRAINT_SCHEMA
+            )
+            WHERE kcu.TABLE_SCHEMA = 'cake_bookmarks' AND kcu.TABLE_NAME = 'users' AND rc.TABLE_NAME = 'users'
+2021-02-02 07:42:36 Debug: duration=1 rows=1 SHOW TABLE STATUS WHERE Name = 'users'
+2021-02-02 07:42:36 Debug: duration=0 rows=1 SELECT Users.id AS `Users__id`, Users.email AS `Users__email`, Users.password AS `Users__password`, Users.created AS `Users__created`, Users.modified AS `Users__modified` FROM users Users WHERE Users.email = 'takumi28280503@gmail.com' LIMIT 1
+2021-02-02 07:43:04 Debug: duration=0 rows=1 SELECT Users.id AS `Users__id`, Users.email AS `Users__email`, Users.password AS `Users__password`, Users.created AS `Users__created`, Users.modified AS `Users__modified` FROM users Users WHERE Users.email = 'soushin@gmail.com' LIMIT 1
+2021-02-02 07:43:25 Debug: duration=0 rows=2 SELECT Users.id AS `Users__id`, Users.email AS `Users__email`, Users.password AS `Users__password`, Users.created AS `Users__created`, Users.modified AS `Users__modified` FROM users Users LIMIT 20 OFFSET 0
+2021-02-02 07:43:25 Debug: duration=0 rows=1 SELECT (COUNT(*)) AS `count` FROM users Users
+2021-02-02 08:26:28 Debug: duration=1 rows=5 SHOW FULL COLUMNS FROM `users`
+2021-02-02 08:26:28 Debug: duration=0 rows=1 SHOW INDEXES FROM `users`
+2021-02-02 08:26:28 Debug: duration=6 rows=0 SELECT * FROM information_schema.key_column_usage AS kcu
+            INNER JOIN information_schema.referential_constraints AS rc
+            ON (
+                kcu.CONSTRAINT_NAME = rc.CONSTRAINT_NAME
+                AND kcu.CONSTRAINT_SCHEMA = rc.CONSTRAINT_SCHEMA
+            )
+            WHERE kcu.TABLE_SCHEMA = 'cake_bookmarks' AND kcu.TABLE_NAME = 'users' AND rc.TABLE_NAME = 'users'
+2021-02-02 08:26:28 Debug: duration=6 rows=1 SHOW TABLE STATUS WHERE Name = 'users'
+2021-02-02 08:26:28 Debug: duration=0 rows=1 SELECT Users.id AS `Users__id`, Users.email AS `Users__email`, Users.password AS `Users__password`, Users.created AS `Users__created`, Users.modified AS `Users__modified` FROM users Users WHERE Users.email = 'takumi28280503@gmail.com' LIMIT 1
+2021-02-02 08:26:48 Debug: duration=0 rows=1 SELECT Users.id AS `Users__id`, Users.email AS `Users__email`, Users.password AS `Users__password`, Users.created AS `Users__created`, Users.modified AS `Users__modified` FROM users Users WHERE Users.email = 'soushin@gmail.com' LIMIT 1
+2021-02-02 08:27:28 Debug: duration=0 rows=0 BEGIN
+2021-02-02 08:27:28 Debug: duration=0 rows=0 SELECT 1 AS `existing` FROM users Users WHERE Users.email = 'gest1@gmail.com' LIMIT 1
+2021-02-02 08:27:28 Debug: duration=0 rows=1 INSERT INTO users (email, password, created, modified) VALUES ('gest1@gmail.com', '$2y$10$k2l4B7.2FWaLO08My/3tduS7Ee1BCzNCYJYG.VHaDoaLle.nVZ9I.', '2021-02-02 08:27:28', '2021-02-02 08:27:28')
+2021-02-02 08:27:28 Debug: duration=0 rows=0 COMMIT
+2021-02-02 08:27:54 Debug: duration=0 rows=0 BEGIN
+2021-02-02 08:27:54 Debug: duration=0 rows=0 SELECT 1 AS `existing` FROM users Users WHERE Users.email = 'gest3@gmail.com' LIMIT 1
+2021-02-02 08:27:54 Debug: duration=0 rows=1 INSERT INTO users (email, password, created, modified) VALUES ('gest3@gmail.com', '$2y$10$Y.d2Qs2891n/iJ70qF7.c.pokQ0WounGfD4NlRbgKdGLYAR8.6ice', '2021-02-02 08:27:54', '2021-02-02 08:27:54')
+2021-02-02 08:27:54 Debug: duration=0 rows=0 COMMIT
+2021-02-02 08:28:12 Debug: duration=0 rows=1 SELECT Users.id AS `Users__id`, Users.email AS `Users__email`, Users.password AS `Users__password`, Users.created AS `Users__created`, Users.modified AS `Users__modified` FROM users Users WHERE Users.email = 'takumi28280503@gmail.com' LIMIT 1
+2021-02-02 08:28:25 Debug: duration=0 rows=1 SELECT Users.id AS `Users__id`, Users.email AS `Users__email`, Users.password AS `Users__password`, Users.created AS `Users__created`, Users.modified AS `Users__modified` FROM users Users WHERE Users.email = 'soushin@gmail.com' LIMIT 1
+2021-02-02 08:28:46 Debug: duration=1 rows=7 SHOW FULL COLUMNS FROM `bookmarks`
+2021-02-02 08:28:46 Debug: duration=0 rows=2 SHOW INDEXES FROM `bookmarks`
+2021-02-02 08:28:46 Debug: duration=6 rows=1 SELECT * FROM information_schema.key_column_usage AS kcu
+            INNER JOIN information_schema.referential_constraints AS rc
+            ON (
+                kcu.CONSTRAINT_NAME = rc.CONSTRAINT_NAME
+                AND kcu.CONSTRAINT_SCHEMA = rc.CONSTRAINT_SCHEMA
+            )
+            WHERE kcu.TABLE_SCHEMA = 'cake_bookmarks' AND kcu.TABLE_NAME = 'bookmarks' AND rc.TABLE_NAME = 'bookmarks'
+2021-02-02 08:28:46 Debug: duration=1 rows=1 SHOW TABLE STATUS WHERE Name = 'bookmarks'
+2021-02-02 08:28:46 Debug: duration=0 rows=0 SELECT Bookmarks.id AS `Bookmarks__id`, Bookmarks.user_id AS `Bookmarks__user_id`, Bookmarks.title AS `Bookmarks__title`, Bookmarks.description AS `Bookmarks__description`, Bookmarks.url AS `Bookmarks__url`, Bookmarks.created AS `Bookmarks__created`, Bookmarks.modified AS `Bookmarks__modified` FROM bookmarks Bookmarks WHERE Bookmarks.user_id = 2 LIMIT 20 OFFSET 0
+2021-02-02 08:28:46 Debug: duration=0 rows=1 SELECT (COUNT(*)) AS `count` FROM bookmarks Bookmarks WHERE Bookmarks.user_id = 2
+2021-02-03 02:55:46 Debug: duration=1 rows=7 SHOW FULL COLUMNS FROM `bookmarks`
+2021-02-03 02:55:46 Debug: duration=0 rows=2 SHOW INDEXES FROM `bookmarks`
+2021-02-03 02:55:46 Debug: duration=8 rows=1 SELECT * FROM information_schema.key_column_usage AS kcu
+            INNER JOIN information_schema.referential_constraints AS rc
+            ON (
+                kcu.CONSTRAINT_NAME = rc.CONSTRAINT_NAME
+                AND kcu.CONSTRAINT_SCHEMA = rc.CONSTRAINT_SCHEMA
+            )
+            WHERE kcu.TABLE_SCHEMA = 'cake_bookmarks' AND kcu.TABLE_NAME = 'bookmarks' AND rc.TABLE_NAME = 'bookmarks'
+2021-02-03 02:55:46 Debug: duration=0 rows=1 SHOW TABLE STATUS WHERE Name = 'bookmarks'
+2021-02-03 02:55:46 Debug: duration=0 rows=0 SELECT Bookmarks.id AS `Bookmarks__id`, Bookmarks.user_id AS `Bookmarks__user_id`, Bookmarks.title AS `Bookmarks__title`, Bookmarks.description AS `Bookmarks__description`, Bookmarks.url AS `Bookmarks__url`, Bookmarks.created AS `Bookmarks__created`, Bookmarks.modified AS `Bookmarks__modified` FROM bookmarks Bookmarks WHERE Bookmarks.user_id = 2 LIMIT 20 OFFSET 0
+2021-02-03 02:55:46 Debug: duration=0 rows=1 SELECT (COUNT(*)) AS `count` FROM bookmarks Bookmarks WHERE Bookmarks.user_id = 2
+2021-02-03 02:55:50 Debug: duration=0 rows=4 SHOW FULL COLUMNS FROM `tags`
+2021-02-03 02:55:50 Debug: duration=0 rows=2 SHOW INDEXES FROM `tags`
+2021-02-03 02:55:50 Debug: duration=1 rows=0 SELECT * FROM information_schema.key_column_usage AS kcu
+            INNER JOIN information_schema.referential_constraints AS rc
+            ON (
+                kcu.CONSTRAINT_NAME = rc.CONSTRAINT_NAME
+                AND kcu.CONSTRAINT_SCHEMA = rc.CONSTRAINT_SCHEMA
+            )
+            WHERE kcu.TABLE_SCHEMA = 'cake_bookmarks' AND kcu.TABLE_NAME = 'tags' AND rc.TABLE_NAME = 'tags'
+2021-02-03 02:55:50 Debug: duration=1 rows=1 SHOW TABLE STATUS WHERE Name = 'tags'
+2021-02-03 02:55:50 Debug: duration=0 rows=1 SELECT Tags.id AS `Tags__id`, Tags.title AS `Tags__title` FROM tags Tags
+2021-02-03 02:56:22 Debug: duration=0 rows=1 SELECT Tags.id AS `Tags__id`, Tags.title AS `Tags__title`, Tags.created AS `Tags__created`, Tags.modified AS `Tags__modified` FROM tags Tags WHERE Tags.id in (1)
+2021-02-03 02:56:22 Debug: duration=0 rows=0 BEGIN
+2021-02-03 02:56:22 Debug: duration=0 rows=5 SHOW FULL COLUMNS FROM `users`
+2021-02-03 02:56:22 Debug: duration=0 rows=1 SHOW INDEXES FROM `users`
+2021-02-03 02:56:22 Debug: duration=1 rows=0 SELECT * FROM information_schema.key_column_usage AS kcu
+            INNER JOIN information_schema.referential_constraints AS rc
+            ON (
+                kcu.CONSTRAINT_NAME = rc.CONSTRAINT_NAME
+                AND kcu.CONSTRAINT_SCHEMA = rc.CONSTRAINT_SCHEMA
+            )
+            WHERE kcu.TABLE_SCHEMA = 'cake_bookmarks' AND kcu.TABLE_NAME = 'users' AND rc.TABLE_NAME = 'users'
+2021-02-03 02:56:22 Debug: duration=0 rows=1 SHOW TABLE STATUS WHERE Name = 'users'
+2021-02-03 02:56:22 Debug: duration=0 rows=1 SELECT 1 AS `existing` FROM users Users WHERE Users.id = 2 LIMIT 1
+2021-02-03 02:56:22 Debug: duration=0 rows=1 SELECT Tags.id AS `Tags__id`, Tags.title AS `Tags__title`, Tags.created AS `Tags__created`, Tags.modified AS `Tags__modified` FROM tags Tags WHERE Tags.title in ('tag1')
+2021-02-03 02:56:22 Debug: duration=0 rows=1 INSERT INTO bookmarks (user_id, title, description, url, created, modified) VALUES (2, 'new', '新しいブクマ新しいブクマ新しいブクマ新しいブクマ新しいブクマ新しいブクマ新しいブクマ新しいブクマ新しいブクマ', 'http://localhost:8765/bookmarks/add', '2021-02-03 02:56:22', '2021-02-03 02:56:22')
+2021-02-03 02:56:22 Debug: duration=7 rows=2 SHOW FULL COLUMNS FROM `bookmarks_tags`
+2021-02-03 02:56:22 Debug: duration=0 rows=3 SHOW INDEXES FROM `bookmarks_tags`
+2021-02-03 02:56:22 Debug: duration=1 rows=2 SELECT * FROM information_schema.key_column_usage AS kcu
+            INNER JOIN information_schema.referential_constraints AS rc
+            ON (
+                kcu.CONSTRAINT_NAME = rc.CONSTRAINT_NAME
+                AND kcu.CONSTRAINT_SCHEMA = rc.CONSTRAINT_SCHEMA
+            )
+            WHERE kcu.TABLE_SCHEMA = 'cake_bookmarks' AND kcu.TABLE_NAME = 'bookmarks_tags' AND rc.TABLE_NAME = 'bookmarks_tags'
+2021-02-03 02:56:22 Debug: duration=0 rows=1 SHOW TABLE STATUS WHERE Name = 'bookmarks_tags'
+2021-02-03 02:56:22 Debug: duration=0 rows=0 SELECT BookmarksTags.bookmark_id AS `BookmarksTags__bookmark_id`, BookmarksTags.tag_id AS `BookmarksTags__tag_id` FROM bookmarks_tags BookmarksTags WHERE (bookmark_id = 2 AND tag_id = 1)
+2021-02-03 02:56:22 Debug: duration=0 rows=0 SELECT BookmarksTags.bookmark_id AS `BookmarksTags__bookmark_id`, BookmarksTags.tag_id AS `BookmarksTags__tag_id` FROM bookmarks_tags BookmarksTags WHERE BookmarksTags.bookmark_id = 2
+2021-02-03 02:56:22 Debug: duration=0 rows=0 SELECT 1 AS `existing` FROM bookmarks_tags BookmarksTags WHERE (BookmarksTags.bookmark_id = 2 AND BookmarksTags.tag_id = 1) LIMIT 1
+2021-02-03 02:56:22 Debug: duration=0 rows=1 INSERT INTO bookmarks_tags (bookmark_id, tag_id) VALUES (2, 1)
+2021-02-03 02:56:22 Debug: duration=0 rows=0 COMMIT
+2021-02-03 02:56:22 Debug: duration=0 rows=1 SELECT Bookmarks.id AS `Bookmarks__id`, Bookmarks.user_id AS `Bookmarks__user_id`, Bookmarks.title AS `Bookmarks__title`, Bookmarks.description AS `Bookmarks__description`, Bookmarks.url AS `Bookmarks__url`, Bookmarks.created AS `Bookmarks__created`, Bookmarks.modified AS `Bookmarks__modified` FROM bookmarks Bookmarks WHERE Bookmarks.user_id = 2 LIMIT 20 OFFSET 0
+2021-02-03 02:56:22 Debug: duration=0 rows=1 SELECT (COUNT(*)) AS `count` FROM bookmarks Bookmarks WHERE Bookmarks.user_id = 2
+2021-02-03 02:56:26 Debug: duration=0 rows=1 SELECT Bookmarks.id AS `Bookmarks__id`, Bookmarks.user_id AS `Bookmarks__user_id`, Bookmarks.title AS `Bookmarks__title`, Bookmarks.description AS `Bookmarks__description`, Bookmarks.url AS `Bookmarks__url`, Bookmarks.created AS `Bookmarks__created`, Bookmarks.modified AS `Bookmarks__modified` FROM bookmarks Bookmarks WHERE Bookmarks.user_id = 2 LIMIT 20 OFFSET 0
+2021-02-03 02:56:26 Debug: duration=0 rows=1 SELECT (COUNT(*)) AS `count` FROM bookmarks Bookmarks WHERE Bookmarks.user_id = 2
+2021-02-03 02:56:28 Debug: duration=0 rows=1 SELECT Bookmarks.id AS `Bookmarks__id`, Bookmarks.user_id AS `Bookmarks__user_id`, Bookmarks.title AS `Bookmarks__title`, Bookmarks.description AS `Bookmarks__description`, Bookmarks.url AS `Bookmarks__url`, Bookmarks.created AS `Bookmarks__created`, Bookmarks.modified AS `Bookmarks__modified` FROM bookmarks Bookmarks WHERE Bookmarks.user_id = 2 LIMIT 20 OFFSET 0
+2021-02-03 02:56:28 Debug: duration=0 rows=1 SELECT (COUNT(*)) AS `count` FROM bookmarks Bookmarks WHERE Bookmarks.user_id = 2
+2021-02-03 02:56:50 Debug: duration=0 rows=0 BEGIN
+2021-02-03 02:56:50 Debug: duration=0 rows=0 SELECT 1 AS `existing` FROM users Users WHERE Users.email = 'gmail@gmail.com' LIMIT 1
+2021-02-03 02:56:50 Debug: duration=0 rows=1 INSERT INTO users (email, password, created, modified) VALUES ('gmail@gmail.com', '$2y$10$UMcmTa1OQ6C.IPluUpp8pORJRZeIkbZ0HAtzMmjbTCxd/CapAu9.O', '2021-02-03 02:56:50', '2021-02-03 02:56:50')
+2021-02-03 02:56:50 Debug: duration=0 rows=0 COMMIT
+2021-02-03 02:57:45 Debug: duration=0 rows=0 BEGIN
+2021-02-03 02:57:45 Debug: duration=0 rows=1 SELECT 1 AS `existing` FROM users Users WHERE Users.email = 'gmail@gmail.com' LIMIT 1
+2021-02-03 02:57:45 Debug: duration=0 rows=0 ROLLBACK
+2021-02-03 02:57:54 Debug: duration=0 rows=7 SHOW FULL COLUMNS FROM `bookmarks`
+2021-02-03 02:57:54 Debug: duration=0 rows=2 SHOW INDEXES FROM `bookmarks`
+2021-02-03 02:57:54 Debug: duration=7 rows=1 SELECT * FROM information_schema.key_column_usage AS kcu
+            INNER JOIN information_schema.referential_constraints AS rc
+            ON (
+                kcu.CONSTRAINT_NAME = rc.CONSTRAINT_NAME
+                AND kcu.CONSTRAINT_SCHEMA = rc.CONSTRAINT_SCHEMA
+            )
+            WHERE kcu.TABLE_SCHEMA = 'cake_bookmarks' AND kcu.TABLE_NAME = 'bookmarks' AND rc.TABLE_NAME = 'bookmarks'
+2021-02-03 02:57:54 Debug: duration=6 rows=1 SHOW TABLE STATUS WHERE Name = 'bookmarks'
+2021-02-03 02:57:54 Debug: duration=0 rows=1 SELECT Bookmarks.id AS `Bookmarks__id`, Bookmarks.user_id AS `Bookmarks__user_id`, Bookmarks.title AS `Bookmarks__title`, Bookmarks.description AS `Bookmarks__description`, Bookmarks.url AS `Bookmarks__url`, Bookmarks.created AS `Bookmarks__created`, Bookmarks.modified AS `Bookmarks__modified` FROM bookmarks Bookmarks WHERE Bookmarks.user_id = 2 LIMIT 20 OFFSET 0
+2021-02-03 02:57:54 Debug: duration=0 rows=1 SELECT (COUNT(*)) AS `count` FROM bookmarks Bookmarks WHERE Bookmarks.user_id = 2
+2021-02-03 02:58:11 Debug: duration=2 rows=1 SELECT Users.id AS `Users__id`, Users.email AS `Users__email`, Users.password AS `Users__password`, Users.created AS `Users__created`, Users.modified AS `Users__modified` FROM users Users WHERE Users.email = 'takumi28280503@gmail.com' LIMIT 1
+2021-02-03 02:58:23 Debug: duration=0 rows=5 SHOW FULL COLUMNS FROM `users`
+2021-02-03 02:58:23 Debug: duration=0 rows=1 SHOW INDEXES FROM `users`
+2021-02-03 02:58:23 Debug: duration=1 rows=0 SELECT * FROM information_schema.key_column_usage AS kcu
+            INNER JOIN information_schema.referential_constraints AS rc
+            ON (
+                kcu.CONSTRAINT_NAME = rc.CONSTRAINT_NAME
+                AND kcu.CONSTRAINT_SCHEMA = rc.CONSTRAINT_SCHEMA
+            )
+            WHERE kcu.TABLE_SCHEMA = 'cake_bookmarks' AND kcu.TABLE_NAME = 'users' AND rc.TABLE_NAME = 'users'
+2021-02-03 02:58:23 Debug: duration=0 rows=1 SHOW TABLE STATUS WHERE Name = 'users'
+2021-02-03 02:58:33 Debug: duration=0 rows=0 BEGIN
+2021-02-03 02:58:33 Debug: duration=0 rows=1 SELECT 1 AS `existing` FROM users Users WHERE Users.email = 'soushin@gmail.com' LIMIT 1
+2021-02-03 02:58:33 Debug: duration=0 rows=0 ROLLBACK
+2021-02-03 02:58:39 Debug: duration=0 rows=0 BEGIN
+2021-02-03 02:58:39 Debug: duration=0 rows=1 SELECT 1 AS `existing` FROM users Users WHERE Users.email = 'soushin@gmail.com' LIMIT 1
+2021-02-03 02:58:39 Debug: duration=0 rows=0 ROLLBACK
+2021-02-03 02:58:41 Debug: duration=0 rows=0 BEGIN
+2021-02-03 02:58:41 Debug: duration=0 rows=1 SELECT 1 AS `existing` FROM users Users WHERE Users.email = 'soushin@gmail.com' LIMIT 1
+2021-02-03 02:58:41 Debug: duration=0 rows=0 ROLLBACK
+2021-02-03 02:58:45 Debug: duration=0 rows=1 SELECT Bookmarks.id AS `Bookmarks__id`, Bookmarks.user_id AS `Bookmarks__user_id`, Bookmarks.title AS `Bookmarks__title`, Bookmarks.description AS `Bookmarks__description`, Bookmarks.url AS `Bookmarks__url`, Bookmarks.created AS `Bookmarks__created`, Bookmarks.modified AS `Bookmarks__modified` FROM bookmarks Bookmarks WHERE Bookmarks.user_id = 2 LIMIT 20 OFFSET 0
+2021-02-03 02:58:45 Debug: duration=0 rows=1 SELECT (COUNT(*)) AS `count` FROM bookmarks Bookmarks WHERE Bookmarks.user_id = 2
+2021-02-03 02:59:35 Debug: duration=0 rows=0 BEGIN
+2021-02-03 02:59:35 Debug: duration=0 rows=1 SELECT 1 AS `existing` FROM users Users WHERE Users.email = 'soushin@gmail.com' LIMIT 1
+2021-02-03 02:59:35 Debug: duration=0 rows=0 ROLLBACK
+2021-02-03 03:00:10 Debug: duration=0 rows=4 SHOW FULL COLUMNS FROM `tags`
+2021-02-03 03:00:10 Debug: duration=0 rows=2 SHOW INDEXES FROM `tags`
+2021-02-03 03:00:10 Debug: duration=6 rows=0 SELECT * FROM information_schema.key_column_usage AS kcu
+            INNER JOIN information_schema.referential_constraints AS rc
+            ON (
+                kcu.CONSTRAINT_NAME = rc.CONSTRAINT_NAME
+                AND kcu.CONSTRAINT_SCHEMA = rc.CONSTRAINT_SCHEMA
+            )
+            WHERE kcu.TABLE_SCHEMA = 'cake_bookmarks' AND kcu.TABLE_NAME = 'tags' AND rc.TABLE_NAME = 'tags'
+2021-02-03 03:00:10 Debug: duration=0 rows=1 SHOW TABLE STATUS WHERE Name = 'tags'
+2021-02-03 03:00:10 Debug: duration=6 rows=7 SHOW FULL COLUMNS FROM `bookmarks`
+2021-02-03 03:00:10 Debug: duration=0 rows=2 SHOW INDEXES FROM `bookmarks`
+2021-02-03 03:00:10 Debug: duration=1 rows=1 SELECT * FROM information_schema.key_column_usage AS kcu
+            INNER JOIN information_schema.referential_constraints AS rc
+            ON (
+                kcu.CONSTRAINT_NAME = rc.CONSTRAINT_NAME
+                AND kcu.CONSTRAINT_SCHEMA = rc.CONSTRAINT_SCHEMA
+            )
+            WHERE kcu.TABLE_SCHEMA = 'cake_bookmarks' AND kcu.TABLE_NAME = 'bookmarks' AND rc.TABLE_NAME = 'bookmarks'
+2021-02-03 03:00:10 Debug: duration=0 rows=1 SHOW TABLE STATUS WHERE Name = 'bookmarks'
+2021-02-03 03:00:10 Debug: duration=0 rows=1 SELECT Tags.id AS `Tags__id`, Tags.title AS `Tags__title` FROM tags Tags
+2021-02-03 03:00:24 Debug: duration=0 rows=0 BEGIN
+2021-02-03 03:00:24 Debug: duration=0 rows=5 SHOW FULL COLUMNS FROM `users`
+2021-02-03 03:00:24 Debug: duration=0 rows=1 SHOW INDEXES FROM `users`
+2021-02-03 03:00:24 Debug: duration=1 rows=0 SELECT * FROM information_schema.key_column_usage AS kcu
+            INNER JOIN information_schema.referential_constraints AS rc
+            ON (
+                kcu.CONSTRAINT_NAME = rc.CONSTRAINT_NAME
+                AND kcu.CONSTRAINT_SCHEMA = rc.CONSTRAINT_SCHEMA
+            )
+            WHERE kcu.TABLE_SCHEMA = 'cake_bookmarks' AND kcu.TABLE_NAME = 'users' AND rc.TABLE_NAME = 'users'
+2021-02-03 03:00:24 Debug: duration=0 rows=1 SHOW TABLE STATUS WHERE Name = 'users'
+2021-02-03 03:00:24 Debug: duration=0 rows=1 SELECT 1 AS `existing` FROM users Users WHERE Users.id = 2 LIMIT 1
+2021-02-03 03:00:24 Debug: duration=0 rows=1 INSERT INTO bookmarks (user_id, title, description, url, created, modified) VALUES (2, 'tag1', 'aaaaaaaaaaaa', 'aaaaaaaaaaa', '2021-02-03 03:00:24', '2021-02-03 03:00:24')
+2021-02-03 03:00:24 Debug: duration=0 rows=0 COMMIT
+2021-02-03 03:00:24 Debug: duration=0 rows=2 SELECT Bookmarks.id AS `Bookmarks__id`, Bookmarks.user_id AS `Bookmarks__user_id`, Bookmarks.title AS `Bookmarks__title`, Bookmarks.description AS `Bookmarks__description`, Bookmarks.url AS `Bookmarks__url`, Bookmarks.created AS `Bookmarks__created`, Bookmarks.modified AS `Bookmarks__modified` FROM bookmarks Bookmarks WHERE Bookmarks.user_id = 2 LIMIT 20 OFFSET 0
+2021-02-03 03:00:24 Debug: duration=0 rows=1 SELECT (COUNT(*)) AS `count` FROM bookmarks Bookmarks WHERE Bookmarks.user_id = 2
+2021-02-03 03:00:31 Debug: duration=0 rows=2 SELECT Bookmarks.id AS `Bookmarks__id`, Bookmarks.user_id AS `Bookmarks__user_id`, Bookmarks.title AS `Bookmarks__title`, Bookmarks.description AS `Bookmarks__description`, Bookmarks.url AS `Bookmarks__url`, Bookmarks.created AS `Bookmarks__created`, Bookmarks.modified AS `Bookmarks__modified` FROM bookmarks Bookmarks WHERE Bookmarks.user_id = 2 LIMIT 20 OFFSET 0
+2021-02-03 03:00:31 Debug: duration=0 rows=1 SELECT (COUNT(*)) AS `count` FROM bookmarks Bookmarks WHERE Bookmarks.user_id = 2
+2021-02-03 03:00:35 Debug: duration=0 rows=2 SELECT Bookmarks.id AS `Bookmarks__id`, Bookmarks.user_id AS `Bookmarks__user_id`, Bookmarks.title AS `Bookmarks__title`, Bookmarks.description AS `Bookmarks__description`, Bookmarks.url AS `Bookmarks__url`, Bookmarks.created AS `Bookmarks__created`, Bookmarks.modified AS `Bookmarks__modified` FROM bookmarks Bookmarks WHERE Bookmarks.user_id = 2 LIMIT 20 OFFSET 0
+2021-02-03 03:00:35 Debug: duration=0 rows=1 SELECT (COUNT(*)) AS `count` FROM bookmarks Bookmarks WHERE Bookmarks.user_id = 2
+2021-02-03 03:00:37 Debug: duration=0 rows=1 SELECT Tags.id AS `Tags__id`, Tags.title AS `Tags__title` FROM tags Tags
+2021-02-03 03:00:38 Debug: duration=0 rows=1 SELECT Tags.id AS `Tags__id`, Tags.title AS `Tags__title` FROM tags Tags
+2021-02-03 03:00:40 Debug: duration=0 rows=1 SELECT Tags.id AS `Tags__id`, Tags.title AS `Tags__title` FROM tags Tags
+2021-02-03 03:00:45 Debug: duration=0 rows=1 SELECT Tags.id AS `Tags__id`, Tags.title AS `Tags__title` FROM tags Tags
+2021-02-03 03:05:45 Debug: duration=0 rows=4 SHOW FULL COLUMNS FROM `tags`
+2021-02-03 03:05:45 Debug: duration=0 rows=2 SHOW INDEXES FROM `tags`
+2021-02-03 03:05:45 Debug: duration=0 rows=0 SELECT * FROM information_schema.key_column_usage AS kcu
+            INNER JOIN information_schema.referential_constraints AS rc
+            ON (
+                kcu.CONSTRAINT_NAME = rc.CONSTRAINT_NAME
+                AND kcu.CONSTRAINT_SCHEMA = rc.CONSTRAINT_SCHEMA
+            )
+            WHERE kcu.TABLE_SCHEMA = 'cake_bookmarks' AND kcu.TABLE_NAME = 'tags' AND rc.TABLE_NAME = 'tags'
+2021-02-03 03:05:45 Debug: duration=1 rows=1 SHOW TABLE STATUS WHERE Name = 'tags'
+2021-02-03 03:05:45 Debug: duration=0 rows=7 SHOW FULL COLUMNS FROM `bookmarks`
+2021-02-03 03:05:45 Debug: duration=0 rows=2 SHOW INDEXES FROM `bookmarks`
+2021-02-03 03:05:45 Debug: duration=1 rows=1 SELECT * FROM information_schema.key_column_usage AS kcu
+            INNER JOIN information_schema.referential_constraints AS rc
+            ON (
+                kcu.CONSTRAINT_NAME = rc.CONSTRAINT_NAME
+                AND kcu.CONSTRAINT_SCHEMA = rc.CONSTRAINT_SCHEMA
+            )
+            WHERE kcu.TABLE_SCHEMA = 'cake_bookmarks' AND kcu.TABLE_NAME = 'bookmarks' AND rc.TABLE_NAME = 'bookmarks'
+2021-02-03 03:05:45 Debug: duration=0 rows=1 SHOW TABLE STATUS WHERE Name = 'bookmarks'
+2021-02-03 03:05:45 Debug: duration=0 rows=1 SELECT Tags.id AS `Tags__id`, Tags.title AS `Tags__title` FROM tags Tags
+2021-02-03 03:05:47 Debug: duration=0 rows=2 SELECT Bookmarks.id AS `Bookmarks__id`, Bookmarks.user_id AS `Bookmarks__user_id`, Bookmarks.title AS `Bookmarks__title`, Bookmarks.description AS `Bookmarks__description`, Bookmarks.url AS `Bookmarks__url`, Bookmarks.created AS `Bookmarks__created`, Bookmarks.modified AS `Bookmarks__modified` FROM bookmarks Bookmarks WHERE Bookmarks.user_id = 2 LIMIT 20 OFFSET 0
+2021-02-03 03:05:47 Debug: duration=0 rows=1 SELECT (COUNT(*)) AS `count` FROM bookmarks Bookmarks WHERE Bookmarks.user_id = 2
+2021-02-03 03:07:22 Debug: duration=0 rows=2 SELECT Bookmarks.id AS `Bookmarks__id`, Bookmarks.user_id AS `Bookmarks__user_id`, Bookmarks.title AS `Bookmarks__title`, Bookmarks.description AS `Bookmarks__description`, Bookmarks.url AS `Bookmarks__url`, Bookmarks.created AS `Bookmarks__created`, Bookmarks.modified AS `Bookmarks__modified` FROM bookmarks Bookmarks WHERE Bookmarks.user_id = 2 LIMIT 20 OFFSET 0
+2021-02-03 03:07:22 Debug: duration=0 rows=1 SELECT (COUNT(*)) AS `count` FROM bookmarks Bookmarks WHERE Bookmarks.user_id = 2
+2021-02-03 03:09:06 Debug: duration=1 rows=7 SHOW FULL COLUMNS FROM `bookmarks`
+2021-02-03 03:09:06 Debug: duration=0 rows=2 SHOW INDEXES FROM `bookmarks`
+2021-02-03 03:09:06 Debug: duration=6 rows=1 SELECT * FROM information_schema.key_column_usage AS kcu
+            INNER JOIN information_schema.referential_constraints AS rc
+            ON (
+                kcu.CONSTRAINT_NAME = rc.CONSTRAINT_NAME
+                AND kcu.CONSTRAINT_SCHEMA = rc.CONSTRAINT_SCHEMA
+            )
+            WHERE kcu.TABLE_SCHEMA = 'cake_bookmarks' AND kcu.TABLE_NAME = 'bookmarks' AND rc.TABLE_NAME = 'bookmarks'
+2021-02-03 03:09:06 Debug: duration=0 rows=1 SHOW TABLE STATUS WHERE Name = 'bookmarks'
+2021-02-03 03:09:06 Debug: duration=0 rows=2 SELECT Bookmarks.id AS `Bookmarks__id`, Bookmarks.user_id AS `Bookmarks__user_id`, Bookmarks.title AS `Bookmarks__title`, Bookmarks.description AS `Bookmarks__description`, Bookmarks.url AS `Bookmarks__url`, Bookmarks.created AS `Bookmarks__created`, Bookmarks.modified AS `Bookmarks__modified` FROM bookmarks Bookmarks WHERE Bookmarks.user_id = 2 LIMIT 20 OFFSET 0
+2021-02-03 03:09:06 Debug: duration=0 rows=1 SELECT (COUNT(*)) AS `count` FROM bookmarks Bookmarks WHERE Bookmarks.user_id = 2
+2021-02-03 03:10:06 Debug: duration=0 rows=2 SELECT Bookmarks.id AS `Bookmarks__id`, Bookmarks.user_id AS `Bookmarks__user_id`, Bookmarks.title AS `Bookmarks__title`, Bookmarks.description AS `Bookmarks__description`, Bookmarks.url AS `Bookmarks__url`, Bookmarks.created AS `Bookmarks__created`, Bookmarks.modified AS `Bookmarks__modified` FROM bookmarks Bookmarks WHERE Bookmarks.user_id = 2 LIMIT 20 OFFSET 0
+2021-02-03 03:10:06 Debug: duration=0 rows=1 SELECT (COUNT(*)) AS `count` FROM bookmarks Bookmarks WHERE Bookmarks.user_id = 2
